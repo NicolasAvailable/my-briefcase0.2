@@ -1,0 +1,19 @@
+
+
+.bg-custome{
+    background-color: rgba(146, 51, 234, 0.37);
+}
+
+.top-right{
+    top: 0;
+    right: -100%;
+}
+
+
+.projec:hover .top-right{
+    right: 0;
+}
+
+.projec:hover .img{
+    filter: blur(4px);
+}

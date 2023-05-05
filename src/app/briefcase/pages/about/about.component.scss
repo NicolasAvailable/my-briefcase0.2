@@ -1,0 +1,52 @@
+
+.font-custome{
+    font-size: 17px;
+}
+
+.width-custome{
+    width: 470px;
+}
+
+.with-custome-cv{
+    width: 348px;
+}
+
+.cv{
+    display: grid;
+    align-items: center;
+    width: 120px;
+    height: 33px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 500;
+    box-shadow: 1px 3px 4px rgb(124 58 237);
+    cursor: pointer;
+}
+
+.img-cv{
+    border-radius: 167px;
+    width: 313px;
+    height: 303px;
+    border: 3px solid white;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px rgb(147 51 234), -1px 2px 10px 2px rgb(0 0 0 / 19%);
+}
+
+.img-cv:hover{
+    box-shadow: 0px 0px 0px 0px rgb(147 51 234), -1px 2px 10px 2px rgb(147 51 234);
+}
+
+.img-cv-dark{
+    border-radius: 167px;
+    width: 313px;
+    height: 303px;
+    border: 3px solid rgba(45, 45, 45, 1);
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px rgb(147 51 234), -1px 2px 10px 2px rgb(0 0 0 / 19%);
+}
+
+.img-cv-dark{
+    box-shadow: 0px 0px 0px 0px rgb(147 51 234), -1px 2px 10px 2px rgb(147 51 234);
+}
