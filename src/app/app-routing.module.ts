@@ -9,7 +9,6 @@ import { SkillsComponent } from './briefcase/pages/skills/skills.component';
 const routes: Routes = [
   {
     path: '',
-    // pathMatch: 'full',
     component: HomeComponent
   },
   {

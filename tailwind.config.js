@@ -6,6 +6,9 @@ module.exports = {
     extend: {
       colors: {
         'navbarDark': 'rgba(45, 45, 45, 1)'
+      },
+      width: {        
+        'about': '470px'
       }
     },
   },

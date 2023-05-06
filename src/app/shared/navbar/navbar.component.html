@@ -8,7 +8,7 @@
     </div>
     <nav class="col-span-6 hidden lg:grid">
             <ul class="flex justify-evenly px-24">
-                <li routerLink="/"  routerLinkActive="text-purple-600 dark:text-purple-600" class="flex justify-center items-center w-20 h-8 cursor-pointer hover:text-purple-600 dark:text-white dark:hover:text-purple-600">
+                <li routerLink="/" routerLinkActive="text-purple-600 dark:text-purple-600" [routerLinkActiveOptions]="{exact: true}" class="flex justify-center items-center w-20 h-8 cursor-pointer hover:text-purple-600 dark:text-white dark:hover:text-purple-600">
                     <i class='bx bxs-home h-4 mr-0.5'></i>
                     <a class="text-lg font-semibold">Home</a>
                 </li>
@@ -41,7 +41,7 @@
 
 <nav class="col-span-6 min-w-full h-20 grid content-center bg-white fixed bottom-0 z-10 lg:hidden dark:bg-navbarDark">
     <ul class="flex justify-evenly px-2 sm:px-24">
-        <li routerLink="" routerLinkActive="text-purple-600 dark:text-purple-600" class="flex justify-center items-center w-20 h-8 hover:text-purple-600 cursor-pointer dark:text-white dark:hover:text-purple-600">
+        <li routerLink="" routerLinkActive="text-purple-600 dark:text-purple-600" [routerLinkActiveOptions]="{exact: true}" class="flex justify-center items-center w-20 h-8 hover:text-purple-600 cursor-pointer dark:text-white dark:hover:text-purple-600">
             <i class='bx bxs-home h-4 mr-0.5'></i>
             <a class="text-base font-semibold">Home</a>
         </li>

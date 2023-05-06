@@ -22,7 +22,7 @@ export class NavbarComponent implements OnInit {
     // } else {
       // document.documentElement.classList.remove('dark')
       // }
-      this.dark = !this.dark
+    this.dark = !this.dark
     this.darkModeAct.emit(this.dark)
   }
 
