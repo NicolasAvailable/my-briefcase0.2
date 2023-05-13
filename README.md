@@ -4,9 +4,11 @@
 
 ![my-briefcase-img](https://hackmd.io/_uploads/ryzM052E2.jpg)
 
-## Development server
+## Quickstart 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1.Run `npm install` to create the node modules  
+2.Run `ng serve` for a dev server.   
+3.Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.  
 
 ## Code scaffolding
 
@@ -15,4 +17,5 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
 
