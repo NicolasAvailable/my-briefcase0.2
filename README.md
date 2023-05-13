@@ -1,6 +1,6 @@
-# MyBriefcase
+# MyBriefcase 💼
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+¡This is my personal briefcase! I made this with so much love, I hope you like it 🙌🏻  
 
 ![my-briefcase-img](https://hackmd.io/_uploads/ryzM052E2.jpg)
 
