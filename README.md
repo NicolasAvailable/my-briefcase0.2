@@ -1,6 +1,6 @@
 # MyBriefcase 💼
 
-¡This is my personal briefcase! I made this with so much love, I hope you like it 🙌
+¡This is my personal briefcase! I made this with so much love, I hope you like it 💜
 
 ![my-briefcase-img](https://hackmd.io/_uploads/ryzM052E2.jpg)
 
