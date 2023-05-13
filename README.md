@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
 
-![](https://hackmd.io/_uploads/rkbNTq3N3.png)
+![my-briefcase-img](https://hackmd.io/_uploads/BJK5693Nn.jpg)
 
 ## Development server
 
