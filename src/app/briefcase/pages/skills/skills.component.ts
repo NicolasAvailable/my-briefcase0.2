@@ -19,6 +19,7 @@ export class SkillsComponent implements OnInit {
     {name: 'tailwind-css', color: 'hover:text-blue-400'},
     {name: 'bootstrap', color: 'hover:text-indigo-700'},
     {name: 'git', color: 'hover:text-orange-500'},
+    {name: 'firebase', color: 'hover:text-amber-400'}
   ];
   work: boolean = false;
 
