@@ -1,0 +1,29 @@
+
+
+.container{
+    min-width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, white 76%, rgba(45, 45, 45, 1) 24%);
+    transform-origin: left;
+}
+
+.bg-dark{
+    min-width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, rgba(45, 45, 45, 1) 76%, white 24%);
+    transform-origin: left;
+}
+
+
+@media (max-width: 400px) {
+    .container{
+        background: white;
+    }
+
+    .bg-dark{
+        background: rgba(45, 45, 45, 1);
+    }
+}
+
+// posible opcion
+// background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8) 0%, rgba(45, 45, 45, 1) 100%);

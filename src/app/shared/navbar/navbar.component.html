@@ -1,0 +1,63 @@
+
+
+<header class="flex flex-row lg:grid lg:grid-cols-8 min-w-full content-center h-20 min-h-full mx-auto mb-4">
+    <div class="flex flex-1 justify-start ml-14 lg:grid lg:justify-normal lg:col-span-1 lg:ml:0">
+        <div class="flex justify-center items-center">
+            <h2 class="text-xl dark:text-white font-semibold cursor-pointer" routerLink="/"> N<span class="text-purple-600">S</span> </h2>
+        </div>
+    </div>
+    <nav class="col-span-6 hidden lg:grid">
+            <ul class="flex justify-evenly px-24">
+                <li routerLink="/" routerLinkActive="text-purple-600 dark:text-purple-600" [routerLinkActiveOptions]="{exact: true}" class="flex justify-center items-center w-20 h-8 cursor-pointer hover:text-purple-600 dark:text-white dark:hover:text-purple-600">
+                    <i class='bx bxs-home h-4 mr-0.5'></i>
+                    <a class="text-lg font-semibold">Home</a>
+                </li>
+                <li routerLink="/about" routerLinkActive="text-purple-600 dark:text-purple-600" class="flex justify-center items-center w-20 h-8 cursor-pointer hover:text-purple-600 dark:text-white dark:hover:text-purple-600">
+                    <i class='bx bx-user-circle h-4 mr-0.5'></i>
+                    <a class="text-lg font-semibold">About</a>
+                </li>
+                <li routerLink="/projects" routerLinkActive="text-purple-600 dark:text-purple-600" class="flex justify-center items-center w-20 h-8 cursor-pointer hover:text-purple-600 dark:text-white dark:hover:text-purple-600">
+                    <i class='bx bxs-buildings h-4 mr-0.5'></i>
+                    <a class="text-lg font-semibold">Projects</a>
+                </li>
+                <li routerLink="/skills" routerLinkActive="text-purple-600 dark:text-purple-600" class="flex justify-center items-center w-20 h-8 cursor-pointer hover:text-purple-600 dark:text-white dark:hover:text-purple-600">
+                    <i class='bx bx-code-alt h-4 mr-0.5'></i>
+                    <a class="text-lg  font-semibold">Skills</a>
+                </li>
+            </ul>
+    </nav>
+    <div class="flex flex-1 justify-end mr-14 lg:grid lg:justify-normal lg:col-span-1 lg:mr-0">
+        <div class="flex justify-center items-center">
+            <button (click)="modeDark()" class="hover:text-purple-600 cursor-pointer">
+                <i *ngIf="!dark; else sun" class='bx bxs-moon h-6'></i>
+                <ng-template #sun>
+                    <i class='bx bx-sun text-white h-6 dark:hover:text-purple-600'></i>
+                </ng-template>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+<nav class="col-span-6 min-w-full h-20 grid content-center bg-white fixed bottom-0 z-10 lg:hidden dark:bg-navbarDark">
+    <ul class="flex justify-evenly px-2 sm:px-24">
+        <li routerLink="" routerLinkActive="text-purple-600 dark:text-purple-600" [routerLinkActiveOptions]="{exact: true}" class="flex justify-center items-center w-20 h-8 hover:text-purple-600 cursor-pointer dark:text-white dark:hover:text-purple-600">
+            <i class='bx bxs-home h-4 mr-0.5'></i>
+            <a class="text-base font-semibold">Home</a>
+        </li>
+        <li routerLink="/about" routerLinkActive="text-purple-600 dark:text-purple-600" class="flex justify-center items-center w-20 h-8 hover:text-purple-600 cursor-pointer dark:text-white dark:hover:text-purple-600">
+            <i class='bx bx-user-circle h-4 mr-0.5'></i>
+            <a class="text-base font-semibold">About</a>
+        </li>
+        <li routerLink="/projects" routerLinkActive="text-purple-600 dark:text-purple-600" class="flex justify-center items-center w-20 h-8 hover:text-purple-600 cursor-pointer dark:text-white dark:hover:text-purple-600">
+            <i class='bx bxs-buildings h-4 mr-0.5'></i>
+            <a class="text-base font-semibold">Projects</a>
+        </li>
+        <li routerLink="/skills" routerLinkActive="text-purple-600 dark:text-purple-600" class="flex justify-center items-center w-20 h-8 hover:text-purple-600 cursor-pointer dark:text-white dark:hover:text-purple-600">
+            <i class='bx bx-code-alt h-4 mr-0.5'></i>
+            <a class="text-base font-semibold">Skills</a>
+        </li>
+    </ul>
+</nav>
+
+

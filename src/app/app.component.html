@@ -1,0 +1,10 @@
+
+
+<div [ngClass]="dark === true ? 'bg-dark' : 'container'">
+  <div>
+    <app-navbar (darkModeAct)="darkMode($event)"></app-navbar>
+  </div>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+</div>

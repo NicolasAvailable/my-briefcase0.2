@@ -1,0 +1,16 @@
+
+
+<div *ngIf="work === true" class="h-custome grid grid-rows-5 flex-col justify-center items-center mt-5 animate__animated animate__fadeIn">
+    <div class="row-span-1">
+        <div class="flex justify-center items-center h-28 dark:text-white">
+            <h2 class="text-3xl font-bold pt-3.5">Technology stack</h2>
+        </div>
+    </div>
+    <div class="row-span-4 grid grid-cols-3 sm:grid-cols-4 lg:flex lg:flex-row lg:justify-center">
+        <div *ngFor="let skill of skills" class="col-span-1 lg:flex-1 mx-3 mb-0 md:mb-8 font-xl dark:text-white">
+            <div class="h-16 w-16 flex justify-center {{skill.color}} cursor-pointer transition-all duration-300 items-center">
+                <i class='bx bxl-{{skill.name}} text-4xl md:text-5xl' [title]="skill.name"></i>
+            </div>
+        </div>
+    </div>
+</div>
