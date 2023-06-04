@@ -4,7 +4,7 @@
 
 ![my-briefcase-img](https://hackmd.io/_uploads/ryzM052E2.jpg)
 
-## Quickstart 
+## Quickstart 👀
 
 1.Run `npm install` to create the node modules  
 2.Run `ng serve` for a dev server.   
